@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/ibouvousaime/projects/GraphicsEngineFirstAttempt/build",
+  "command": "/usr/lib64/ccache/c++    -I/home/ibouvousaime/projects/GraphicsEngineFirstAttempt/include -I/usr/include/SDL2  -g   -o CMakeFiles/graphicsenginefirstattempt.dir/src/main.cpp.o -c /home/ibouvousaime/projects/GraphicsEngineFirstAttempt/src/main.cpp",
+  "file": "/home/ibouvousaime/projects/GraphicsEngineFirstAttempt/src/main.cpp"
+},
+{
+  "directory": "/home/ibouvousaime/projects/GraphicsEngineFirstAttempt/build",
+  "command": "/usr/lib64/ccache/c++    -I/home/ibouvousaime/projects/GraphicsEngineFirstAttempt/include -I/usr/include/SDL2  -g   -o CMakeFiles/graphicsenginefirstattempt.dir/src/Window.cpp.o -c /home/ibouvousaime/projects/GraphicsEngineFirstAttempt/src/Window.cpp",
+  "file": "/home/ibouvousaime/projects/GraphicsEngineFirstAttempt/src/Window.cpp"
+}
+]

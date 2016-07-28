@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Window.h
+iostream
+-
+string
+-
+SDL2/SDL.h
+-
+GL/gl.h
+-
+
+/home/ibouvousaime/projects/GraphicsEngineFirstAttempt/src/Window.cpp
+Window.h
+/home/ibouvousaime/projects/GraphicsEngineFirstAttempt/src/Window.h
+
+/home/ibouvousaime/projects/GraphicsEngineFirstAttempt/src/main.cpp
+iostream
+-
+Window.h
+/home/ibouvousaime/projects/GraphicsEngineFirstAttempt/src/Window.h
+
