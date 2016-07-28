@@ -116,6 +116,8 @@ graphicsenginefirstattempt_EXTERNAL_OBJECTS =
 graphicsenginefirstattempt: CMakeFiles/graphicsenginefirstattempt.dir/src/main.cpp.o
 graphicsenginefirstattempt: CMakeFiles/graphicsenginefirstattempt.dir/src/Window.cpp.o
 graphicsenginefirstattempt: CMakeFiles/graphicsenginefirstattempt.dir/build.make
+graphicsenginefirstattempt: /usr/lib64/libGLU.so
+graphicsenginefirstattempt: /usr/lib64/libGL.so
 graphicsenginefirstattempt: CMakeFiles/graphicsenginefirstattempt.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ibouvousaime/projects/GraphicsEngineFirstAttempt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable graphicsenginefirstattempt"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/graphicsenginefirstattempt.dir/link.txt --verbose=$(VERBOSE)

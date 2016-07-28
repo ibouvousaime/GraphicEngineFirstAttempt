@@ -13,7 +13,7 @@ string
 -
 SDL2/SDL.h
 -
-GL/gl.h
+GL/glut.h
 -
 
 /home/ibouvousaime/projects/GraphicsEngineFirstAttempt/src/Window.cpp

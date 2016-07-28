@@ -15,8 +15,14 @@ find_package(GLUT REQUIRED)
 TARGET_LINK_LIBRARIES(graphicsenginefirstattempt ${SDL2_LIBRARIES})
 include_directories( ${OPENGL_INCLUDE_DIRS}  ${GLUT_INCLUDE_DIRS} )
 
+set( GLUT_LIBRARIES
+    ${GLUT_glut_LIBRARY}
+    ${GLUT_Xmu_LIBRARY}
+    ${GLUT_Xi_LIBRARY}
+    ${GLUT_cocoa_LIBRARY})
 
-target_link_libraries(graphicsenginefirstattempt ${OPENGL_LIBRARIES} ${GLUT_LIBRARY} )
+
+target_link_libraries(graphicsenginefirstattempt ${OPENGL_LIBRARIES} GLUT_LIBRARIES )
 
 
 install(TARGETS graphicsenginefirstattempt RUNTIME DESTINATION bin)

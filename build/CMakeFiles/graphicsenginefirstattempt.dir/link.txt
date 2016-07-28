@@ -1,1 +1,1 @@
-/usr/lib64/ccache/c++   -g   CMakeFiles/graphicsenginefirstattempt.dir/src/main.cpp.o CMakeFiles/graphicsenginefirstattempt.dir/src/Window.cpp.o  -o graphicsenginefirstattempt -rdynamic -lSDL2 
+/usr/lib64/ccache/c++   -g   CMakeFiles/graphicsenginefirstattempt.dir/src/main.cpp.o CMakeFiles/graphicsenginefirstattempt.dir/src/Window.cpp.o  -o graphicsenginefirstattempt -rdynamic -lSDL2 -lGLU -lGL -lGLUT_LIBRARIES 
